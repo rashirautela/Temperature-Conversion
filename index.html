@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Webpage</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1 id="title">Temperature Conversion</h1>
+        <form>
+            <label for="inputbox">Enter the Temperature:</label>
+            <input type="number" id="inputbox" value="0" />
+            <br />
+            <input name="conversionType" type="radio" id="toCelsius" />
+            <label for="toCelsius">Fahrenheit → Celsius</label>
+            <br />
+            <input name="conversionType" type="radio" id="toFahren" />
+            <label for="toFahren">Celsius → Fahrenheit</label>
+            <br />
+            <button type="button" onclick="conversion()">Submit</button>
+            <h3 id="result"></h3>
+        </form>
+        <script src="./summerCode/tempConversion/index.js"></script>
+    </body>
+</html>
