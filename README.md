@@ -16,5 +16,11 @@ A simple webpage for converting temperatures between Fahrenheit and Celsius. Use
 2. Open `index.html` in a browser.
 3. Enter a temperature, select conversion type, and click "Submit" to see the result.
 
+## Example Usage
+
+1. Enter `100` in the temperature input box.
+2. Select "Fahrenheit → Celsius".
+3. Click "Submit".
+4. The result will be displayed as `37.78ºC`.
 
 
